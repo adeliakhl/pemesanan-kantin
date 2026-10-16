@@ -5,22 +5,21 @@ include "koneksi.php";
 <!DOCTYPE html>
 <html>
 <head>
+    <?php include 'navbar.php'; ?>
     <title>Pemesanan</title>
     <style>
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 30px;
+            margin: 20px;
         }
-        table {
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
-        th, td {
-            border: 1px solid #333;
-            padding: 8px 12px;
-        }
-        th {
-            background-color: #f0f0f0;
+        a {
+            margin-right: 15px;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -64,6 +63,7 @@ include "koneksi.php";
 
     <br>
     <a href="menu.php">Kembali ke Data Menu</a>
+    
 
 </body>
 </html>

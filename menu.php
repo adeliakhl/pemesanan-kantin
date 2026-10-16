@@ -1,39 +1,30 @@
-<?php
+    <?php
 include "koneksi.php";
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
+
     <title>Data Menu</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 30px;
+            margin: 20px;
         }
-        h2 {
-            margin-bottom: 10px;
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
         }
         a {
+            margin-right: 15px;
             text-decoration: none;
-            color: blue;
-        }
-        table {
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
-        th, td {
-            border: 1px solid #333;
-            padding: 8px 12px;
-            text-align: left;
-        }
-        th {
-            background-color: #f0f0f0;
         }
     </style>
 </head>
 <body>
-
+    <?php include 'navbar.php'; ?>
     <h2>Data Menu Kantin</h2>
     <a href="tambah_menu.php">+ Tambah Menu</a>
     <br><br>
