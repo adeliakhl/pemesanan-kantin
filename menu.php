@@ -45,7 +45,7 @@ include "koneksi.php";
             <th>Kategori</th>
             <th>Harga</th>
             <th>Stok</th>
-            <th>Aksi</th>
+            <th>Pilih</th>
         </tr>
 
         <?php
