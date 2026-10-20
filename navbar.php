@@ -12,7 +12,7 @@
         font-family: Arial, sans-serif;
     }
     .navbar-brand {
-        color: #f8edeb; 
+        color: #FCBBD9; 
         font-weight: bold;
         font-size: 19px;
         text-decoration: none;
