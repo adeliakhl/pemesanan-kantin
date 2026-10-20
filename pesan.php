@@ -9,12 +9,12 @@ include "koneksi.php";
     <title>Pemesanan</title>
     <style>
 body {
-            font-family: Arial, sans-serif;
+            font-family: Times New Roman, sans-serif;
             margin: 20px;
         }
         <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Times New Roman, sans-serif;
             margin: 20px;
         }
         a {
